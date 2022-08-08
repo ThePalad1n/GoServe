@@ -121,7 +121,7 @@ func enableCors(w *http.ResponseWriter) {
 }
 
 func main() {
-	fmt.Println("Listening on port 6969 ;)")
+	fmt.Println("Listening on port 6969...")
 	var a = CreateRouter()
 	log.Fatal(http.ListenAndServe(":6969", a))
 
